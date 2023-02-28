@@ -11,10 +11,10 @@
 * Right + Click **Relay Outputs** and **Add New Output Controller**.
 * In the list as shown below, click on the **Search Folder** button, navigate to the folder where the file was downloaded, then press ok.
 
-![image](https://user-images.githubusercontent.com/50086268/189106842-078b7957-e30d-4dbc-a659-2461962ec477.png)
+![image](https://user-images.githubusercontent.com/50086268/221861027-ed9a34ac-1a15-4f8f-b6ad-180727674bb4.png)
 
 * Highlight the Fasttel Relay Control, then press OK.
-* Add IP address, User Name and Password as set up in the Akuvox Intercom.
+* Add the intercom's IP address.
 
 ![image](https://user-images.githubusercontent.com/50086268/189108016-08a3d1cf-3def-4c32-97f1-ad64ddacf464.png)
 
