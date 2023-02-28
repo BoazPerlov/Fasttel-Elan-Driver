@@ -15,8 +15,9 @@
 
 * Highlight the Fasttel Relay Control, then press OK.
 * Add the intercom's IP address.
+* Add the inercom's relay admin and password if added.
 
-![image](https://user-images.githubusercontent.com/50086268/189108016-08a3d1cf-3def-4c32-97f1-ad64ddacf464.png)
+![image](https://user-images.githubusercontent.com/50086268/221861389-85594757-36de-4606-b59b-295d88468993.png)
 
 * You'd be able to tell if connection was successful if the intercom Model, MAC address and Firmware version populate automatically in their respective fields.
 
