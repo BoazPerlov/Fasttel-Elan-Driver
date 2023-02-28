@@ -6,6 +6,14 @@
 **[Elan](https://elancontrolsystems.com/)** is a home automation platform with an integration API. ELAN is the industry leader in smart home & business technology solutions. Integration of Fasttel intercoms via SIP-based communication is done via the intercom internal settings, and thus will not be outlined in this repository. The aim of this driver is to integrate Akuovox's relay control to Elan via the Elan driver development API. 
 
 ### How to Integrate
+* Use a browser to navigate to the Intercom's IP address.
+* Log in by entering the username and password (default: admin/admin)
+* Navigate to the Intercom > HTTP API menu
+* Check the "Enabled" checkbox and choose an Authorization Mode (None for no password, Basic for access with username/password)
+* If Authorization Mode is "Basic", enter username and password (to be used later in the configurator)
+
+![image](https://user-images.githubusercontent.com/50086268/221866663-cdddbfa0-092d-4216-a851-1c358078ff19.png)
+
 * Download the **Fasttel_Relay_Control.EDRVC** file from this repository.
 * In the Elan configurator, navigate to the Input/Output tab.
 * Right + Click **Relay Outputs** and **Add New Output Controller**.
@@ -15,7 +23,7 @@
 
 * Highlight the Fasttel Relay Control, then press OK.
 * Add the intercom's IP address.
-* Add the inercom's relay admin and password if added.
+* Add the inercom's relay admin and password if Authorization Mode was set to "Basic".
 
 ![image](https://user-images.githubusercontent.com/50086268/221861389-85594757-36de-4606-b59b-295d88468993.png)
 
