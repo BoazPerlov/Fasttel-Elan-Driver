@@ -100,8 +100,8 @@ function EDRV_ExecuteConfigProc()
 	UserName = ELAN_GetUserName()
 	password = ELAN_GetPassword()
 	encodedPassword = ELAN_GetAuthBasic()
-	sHTTP = "GET api/system/reboot HTTP/1.0\r\n"
-	sHTTP = sHTTP .. string.format("Authorization: Basic %s", encodedPassword)
+	sHTTP = "GET api/system/reboot/ HTTP/1.0\r\n"
+	--sHTTP = sHTTP .. string.format("Authorization: Basic %s", encodedPassword)
 	sHTTP = sHTTP .. "Host: " .. ipAddress .. "\r\n"
 	sHTTP = sHTTP .. "Content-Type: text/html; charset=UTF-8\r\n"
 	sHTTP = sHTTP .. "Connection: keep-alive\r\n\r\n"

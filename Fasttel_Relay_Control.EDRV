@@ -5,7 +5,7 @@ DRIVER_NAME			= Fasttel Relay Control
 LUA_SRC				= Fasttel_Relay_Control.lua
 SCHEMA				= 96
 AUTHENTICATION		= BASIC
-CONFIG_BUTTON_1 	= Reboot Intercom
+--CONFIG_BUTTON_1 	= Reboot Intercom
 
 DEFAULT_PORT		= 80
 NOCHANGE_PORT
